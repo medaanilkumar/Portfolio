@@ -5,11 +5,10 @@
     --Emerald:#064e3b
 }
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', Courier, monospace;
     margin: 0rem 0rem;
     font-size: 20px;
 }
-
 nav  ul li{
     display: inline-block;
     padding: 1rem;
@@ -32,12 +31,9 @@ nav li a{
     color: white;
     font-weight: bold;  
 }
-
-
 nav li a:active {
     color: wheat;
   }
-
 .header img{
     padding: 1rem;
     max-width: 400px;
@@ -53,4 +49,66 @@ nav li a:active {
     color: var(--Emerald);
     font-size: 42px;
     font-weight: bold;
+}
+.tech{
+    padding: 3rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.tech h2{
+    max-width: 600px;
+    margin: auto;
+}
+.Projects{
+    padding: 1rem;
+    text-align: center;
+}
+.Blogs{
+    padding: 1rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.Blogs h2{
+    max-width: 600px;
+    margin: auto;
+}
+.Projects h2{
+    max-width: 600px;
+    margin: auto;
+}
+.Projects a{
+    padding: 0rem 1rem;
+    background-color: var(--Emerald);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3rem;    
+}
+.Blogs a{
+    padding: 0rem 1rem;
+    text-align: center;
+    border: 1px solid var(--Emerald);
+    color: var(--Emerald);
+    font-size: 20px;;
+    font-weight: bold;
+    border-radius: 5rem;    
+}
+
+.Blogs a:hover{
+    font-size: small;
+}
+.Projects a:hover{
+    font-size: large;
+}
+footer{
+    background-color: var(--Emerald);
+    text-align: center;
+    color: white;
+    padding: 2rem 2rem;
+    border-bottom-right-radius: 2rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
