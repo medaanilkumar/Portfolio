@@ -1,0 +1,56 @@
+:root{
+    --bluecolor:blue;
+    --lime:#a3e635;
+    --f:#e879f9;
+    --Emerald:#064e3b
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0rem 0rem;
+    font-size: 20px;
+}
+
+nav  ul li{
+    display: inline-block;
+    padding: 1rem;
+}
+nav{
+    background-color: var(--Emerald);
+    overflow: hidden;
+    border-bottom-left-radius: 2.5rem;
+}
+nav h1{
+    padding: 0.4rem ;
+    color: white;
+}
+nav li{
+    list-style: none;
+    float: right;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;  
+}
+
+
+nav li a:active {
+    color: wheat;
+  }
+
+.header img{
+    padding: 1rem;
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
+.header h1{
+    text-align: center;
+    color: gray;
+    font-size: 42px
+}
+.header h1 strong{
+    color: var(--Emerald);
+    font-size: 42px;
+    font-weight: bold;
+}
