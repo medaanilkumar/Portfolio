@@ -9,6 +9,7 @@
     font-family: 'Montserrat', Courier, monospace;
     margin: 0rem 0rem;
     font-size: 20px;
+    font-weight: bold;
 }
 nav  ul li{
     display: inline-block;
@@ -32,9 +33,6 @@ nav li a{
     color: white;
     font-weight: bold;  
 }
-nav li a:active {
-    color: wheat;
-  }
 .header img{
     padding: 1rem;
     max-width: 400px;
@@ -96,12 +94,7 @@ nav li a:active {
     border-radius: 5rem;    
 }
 
-.Blogs a:hover{
-    font-size: small;
-}
-.Projects a:hover{
-    font-size: large;
-}
+
 footer{
     background-color: var(--Emerald);
     text-align: center;
@@ -112,4 +105,61 @@ footer{
 footer a{
     text-decoration: none;
     color: white;
+}
+/* project.html css*/
+.code{
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.code strong{
+    color: var(--Emerald);
+    font-size: 30px;
+    font-weight: bold;
+}
+/* .projecttemp h1{
+    padding: 0.5rem;
+    text-align: center;
+    
+}
+.projecttemp .list h1{
+    font-size: 2rem;
+    display: block;
+    
+
+}
+.projecttemp small{
+    position: absolute;
+    left: 420px;
+    font-size: 14px;
+}
+ */
+.lists{
+    max-width: 550px;
+    margin: auto;
+}
+.lists li{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.lists a{
+    display: inline-block;
+    padding: 1rem 1rem;
+    border: 1px solid var(--Emerald);
+    border-radius: 1rem;
+    color: black;
+    
+   
+}
+.lists .live{
+    padding: 1rem 1rem;
+    color: white;
+    border: 1px solid var(--Emerald);
+    border-radius: 2rem;
+    background-color: var(--Emerald);
+}
+.lists p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
