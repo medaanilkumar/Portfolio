@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbuilt Methods In JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navigation ">
+
+        <div class="nav-brand">IAmDeveloper</div>
+        <ul class="list-non-bullet nav-pills ">
+            <li class="list-item-inline ">
+                <a class="link " href="/">Home</a>
+            </li>
+            <li class="list-item-inline ">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline ">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <div class=" blog-div padding-md margin-md">
+
+        <h1 class="hero-heading margin-md ">Inbuilt Methods In JavaScript </h1>
+        <small>September 15, 2021</small>
+        <hr>
+        <img class="blog-image " src="\images\blogThumbnail2.svg" alt="" class="hero-image">
+
+        <div class="blog-div">
+            <h1 class="hero-heading margin-md ">What is methods in JavaScript ?</h1>
+
+            <p>Methods in JavaScript is like a function which we can perform on objects or on array or on string .It is
+                a property of an object which contains function defination.</p>
+            <h2 class="hero-heading margin-md">Types of method in JavaScript: </h2>
+            <h3 class="hero-heading margin-md">There are two ways you can have methods of JavaScript</h3>
+            <ol class=" ">
+                <li class="list-spaced"> By defining it yourself</li>
+                <li class="list-spaced ">By using Inbuilt Methods in JavaScript</li>
+            </ol>
+            <h4 class="hero-heading margin-md">Here, we will focus on different Inbuilt JavaScript methods.So let's
+                start,</h4>
+            <p>We will see here useful string methods and array methods. </p>
+
+            <ol class=" ">
+                <li class="list-spaced bold">
+                    <h2> Slice()</h2>
+                </li>
+                <p>This is a string method which copy some part of string without modifiying the original string.</p>
+                <p>Example :- <span class=" margin-md margin-sm-left">On string</span>
+
+                </p>
+                var str = <span class="italic">
+                    "JavaScrispant is cool" ;</p>
+
+
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.slice(); // 'JavaScript is cool'</li>
+                        <li class="italic list-spaced margin-sm-left">str.slice(4); // 'cript is cool'</li>
+                        <li class="italic list-spaced margin-sm-left">str.slice(1 ,11); // 'avascript '</li>
+                    </ul>
+
+
+                   
+                    <p><span class=" margin-md ">On Array</span></p>
+                    <p>const flowers = ["Rose" , "Sunflower" , "daffodils", "Lily"];</p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">flowers.slice(); // ['Rose', 'Sunflower',
+                            'daffodils', 'Lily']</li>
+                        <li class="italic list-spaced margin-sm-left">flowers.slice(1); // ['Sunflower', 'daffodils',
+                            'Lily']</li>
+                        <li class="italic list-spaced margin-sm-left">flowers.slice(1 ,3); //  ['Sunflower',
+                            'daffodils']</li>
+                    </ul>
+
+                    <li class="list-spaced bold">
+                        <h2> toUpperCase()</h2>
+                    </li>
+                    <p>As the name says itself this method converts the String to uppercase but without affecting the
+                        original string.</p>
+                    <p>Example :- var str = <span class="italic">"kajal kumari"</span>
+                    </p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.toUpperCase() // "KAJAL KUMARI"</li>
+
+                    </ul>
+                    <li class="list-spaced bold">
+                        <h2> toLowerCase()</h2>
+                    </li>
+                    <p>As the name says itself this method converts the String to Lowercase but without affecting the
+                        original string.</p>
+                    <p>Example :- var str = <span class="italic">"JAVASCRIPT"</span>
+                    </p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.toLowerCase() // "javascript"</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> repalceAll()</h2></li>
+                    <p>This method return a new string based on provided replacement after replacing it in string.  </p>
+                    <p>Example :- 1. var str = <span class="italic">"15-09-2021"</span></p>
+                    <p>2.var str2 = "write the Blog"</p>
+
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.replaceAll('-' , '') // "15092021"</li>
+                        <li class="italic list-spaced margin-sm-left">str2.replaceAll('write' , 'read') // &nbsp; &nbsp;"read the Blog"</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> charAT()</h2></li>
+                    <p>This method return specified character from a string of specified index.</p>
+                    <p>Example :-  var str = <span class="italic">"Hello World!"</span></p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.charAt(3) // &nbsp; &nbsp;"l"</li>
+                        <li class="italic list-spaced margin-sm-left">str.charAt(7) // &nbsp; &nbsp;"o"</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> split()</h2></li>
+                    <p>This method split the string on the basis of argument you pass in it.</p>
+                    <p>Example :-  var str = <span class="italic">"Welcome to programming world!"</span></p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.split('') // &nbsp; &nbsp;['W', 'e', 'l', 'c', 'o', 'm', 'e', ' ', 't', 'o', ' ', 'p', 'r', 'o', 'g', 'r', 'a', 'm', 'm', 'i', 'n', 'g', ' ', 'w', 'o', 'r', 'l', 'd', '!']</li>
+                        <li class="italic list-spaced margin-sm-left">str.split(" ") // &nbsp; &nbsp;['Welcome', 'to', 'programming', 'world!']</li>
+                        <li class="italic list-spaced margin-sm-left">str.split('o')//  &nbsp; &nbsp; ['Welc', 'me t', ' pr', 'gramming w', 'rld!']</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> join()</h2></li>
+                    <p>This method return an array of string joining all the breakpoints </p>
+                    <p>Example :-  var arr = <span class="italic">["Welcome" ,"to","programming" "world!"]</span></p>
+                    <ul type="square">
+                        <li class="italic list-spaced margin-sm-left">str.join('') // &nbsp; &nbsp;'Welcometoprogrammingworld!'</li>
+                        <li class="italic list-spaced margin-sm-left">str.split(" ") // &nbsp; &nbsp;'Welcome to programming world!'</li>
+                        <li class="italic list-spaced margin-sm-left">str.split('o') //  &nbsp; &nbsp; 'Welcomeotooprogrammingoworld!'</li>
+                    </ul>
+                    <li class="list-spaced bold" ><h2> reverse()</h2></li>
+                    <p>This method reverse the order of the array and then return it as array of strings.
+                    </p>
+                    <p>Example:- var arr = <span class="italic">['W', 'e', 'l', 'c', 'o', 'm', 'e']</span></p>
+
+                    <ul type="square">
+                       
+                        <li class="italic list-spaced margin-sm-left">str.split(" ") // &nbsp; &nbsp; ['e', 'm', 'o', 'c', 'l', 'e', 'W']</li>
+                        
+                    </ul>
+                    
+            </ol>
+
+            <p> Hope you enjoyed the blog. For now bye bye 🚶‍♀️</p>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
