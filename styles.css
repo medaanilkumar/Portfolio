@@ -139,12 +139,14 @@ footer a{
 }
  */
 .lists{
-    max-width: 550px;
+    max-width: 850px;
     margin: auto;
+    
 }
 .lists li{
     font-size: 1.2rem;
     font-weight: bold;
+    height: 11rem;
 }
 .lists a{
     display: inline-block;
@@ -166,4 +168,7 @@ footer a{
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 1rem;
+}
+.lists ol li:nth-child(odd){
+    background-color: lightcyan;
 }
