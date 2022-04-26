@@ -169,6 +169,6 @@ footer a{
     padding-bottom: 1rem;
     padding-right: 1rem;
 }
-.lists ol li:nth-child(odd){
+.projects ol li:nth-child(odd){
     background-color: whitesmoke;
 }
